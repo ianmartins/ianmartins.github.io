@@ -1,0 +1,29 @@
+{% include header.html %}
+{% assign ian = site.data.authors[page.author] %}
+<div class="posts">
+<h2>{{ page.title }}</h2>
+{% if ian %}
+<span>
+        Escrito por <a href="{{ ian.web }}" target="_blank">{{ ian.name }}</a>
+    </span>
+    {% endif %}
+
+<br>
+{{ content }}
+</div>
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'ianmartins';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+</div>
+<noscript>Por favor, habilite o JavaScript para ver <a href="https://disqus.com/?ref_noscript" rel="nofollow">comentários. <h5>Powered by <a href="https://disqus.com/">Disqus</a></h5></a></noscript>
+{% endif %}
+{% include mainfooter.html %}

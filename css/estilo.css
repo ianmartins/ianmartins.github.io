@@ -1,0 +1,101 @@
+/* Codigo responsive*/
+/* estilos de telas maiores vão aqui */
+
+* {  margin: 0px; padding: 0px;
+}
+h1 {display: block;font-size: 2em;margin-top: 0.67em;margin-bottom: 0.67em;margin-left: 0;margin-right: 0;font-weight: bold;}
+header h1 {float: right; display: inline; font-size: 1.5em; margin-top: 0.67em;   margin-bottom: 0.67em; margin-left: 0.52em; margin-right: 0.67em; font-weight: bold;}
+header h1 a {text-decoration: none;}
+h2 {display: block;font-size: 1.5em;margin: 0.52em; font-weight: bold;}
+h4 {display: block;margin-top: 1.33em;margin-bottom: 1.33em;margin-left: 0;margin-right: 0;font-weight: bold;}
+h5 {display: block;font-size: .83em;margin-top: 1.67em;margin-bottom: 1.67em;margin-left: 0;margin-right: 0;font-weight: bold;}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+a {
+  color: #0A0A0A;
+  text-decoration: none;
+  }
+header {
+    width: 100%;
+    float: left;
+    margin-bottom: 4.1666667%;
+    background: #F5F5F5;
+}
+/* header a:hover {background-color: #D6D6D6;} */
+header a:active { border-radius: 10px;
+                  background-color: #D6D6D6;
+                  color: #FFF;
+}
+body {
+  width: 50%;
+  margin: 0 auto;
+	font-size: 1.05em;
+	line-height: 1.25em;
+	font-family: Helvetica, Arial, sans-serif;
+  background-color: #333333;
+}
+nav {
+  position: relative;
+  display:inline;
+  float:left;
+  font-size:1.5em;
+  font-weight:900;
+  margin-top: 0.52em;
+  margin-right: 0.52em;
+  margin-left: 0.52em;
+}
+ul { list-style-type: none;
+}
+li { display: inline;
+}
+.posts {
+  margin: 0 4.1666667% 0 4.1666667%;
+}
+.featured {
+    width: 91.6666666%;
+    margin: 0 4.1666667% 4.1666667% 4.1666667%;
+}
+.pagination {
+  width: 91.6666666%;
+  margin: 0 4.1666667% 0 4.1666667%;
+  text-align: center;
+}
+
+section {
+  background-color: #FFFFFF;
+}
+
+li h4 {
+  text-align: center;
+}
+
+/*.box {
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;}
+footer a a:hover { background-image: url('#')
+}*/
+
+#disqus_thread {
+  margin: 0 4.1666667% 0 4.1666667%;
+
+}
+
+.custom-icon {margin-top: 0.25em;}
+/* estilos de telas mobile vão aqui
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+  .nav {
+    position: relative;
+    display:inline;
+    float:left;
+    font-size:1.5em;
+    font-weight:900;
+    margin-right: 0.52em;
+    margin-left: 0.52em;
+    }
+*/
